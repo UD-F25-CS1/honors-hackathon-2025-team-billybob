@@ -284,4 +284,4 @@ def Reset(state:State):
     state.additional_total = 0
     return index(state)
     
-start_server(State(0, Class_info(), 0,Sleep_info(),0,Transit_info(),0,Cleaning_info(),0,Additional_info(),0))
+start_server(State(0, Class_info('',0,'',0,'',0,'',0,'',0,'',0,'',0,'',0), 0,Sleep_info(0,0),0,Transit_info(0),0,Cleaning_info(0,0,0),0,Additional_info('',0,'',0,'',0,'',0,'',0,'',0,'',0,'',0),0))
