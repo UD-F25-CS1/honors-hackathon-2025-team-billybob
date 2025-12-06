@@ -6,14 +6,8 @@ from dataclasses import dataclass
 
 set_website_framed(False)
 set_website_title("Free Time Calculator")
-set_site_information(
-    author = "TabithaZ@udel.edu and nkapadia@udel.edu",
-    description ="""A website that allows students to calculate the amount of free time that they have in a day.""",
-    sources = ["https://coda.io/@hales/simple-online-calculator-for-dates-and-times/how-many-minutes-in-a-day-39", "https://chatgpt.com/"],
-    planning = ["your_planning_document.pdf"],
-    []
-    
-)
+#"TabithaZ@udel.edu and nkapadia@udel.edu",
+   
 hide_debug_information()
 set_website_style("none")
 
