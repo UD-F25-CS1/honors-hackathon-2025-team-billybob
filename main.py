@@ -73,15 +73,15 @@ class Additional_info:
 @dataclass
 class State:
     time_remaining: int = 0
-    classes: Class_info = Class_info()
+    classes: Class_info 
     class_total: int = 0
-    sleeps: Sleep_info = Sleep_info()
+    sleeps: Sleep_info 
     sleep_total: int = 0
-    transits: Transit_info = Transit_info()
+    transits: Transit_info 
     transit_total: int = 0
-    cleanings: Cleaning_info = Cleaning_info()
+    cleanings: Cleaning_info 
     cleanings_total: int = 0
-    additionals: Additional_info = Additional_info()
+    additionals: Additional_info 
     additional_total: int = 0
 
 def minutes_to_hours(minutes: int) -> str:
