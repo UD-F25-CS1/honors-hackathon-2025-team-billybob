@@ -11,6 +11,7 @@ set_site_information(
     description ="""A website that allows students to calculate the amount of free time that they have in a day.""",
     sources = ["https://coda.io/@hales/simple-online-calculator-for-dates-and-times/how-many-minutes-in-a-day-39", "https://chatgpt.com/"],
     planning = ["your_planning_document.pdf"],
+    []
     
 )
 hide_debug_information()
