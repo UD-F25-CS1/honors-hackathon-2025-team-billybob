@@ -19,56 +19,56 @@ body{
     ''')
 @dataclass
 class Class_info:
-    Class_nam1: str = ""
-    Class_len1: int = 0
-    Class_nam2: str = ""
-    Class_len2: int = 0
-    Class_nam3: str = ""
-    Class_len3: int = 0
-    Class_nam4: str = ""
-    Class_len4: int = 0
-    Class_nam5: str = ""
-    Class_len5: int = 0
-    Class_nam6: str = ""
-    Class_len6: int = 0
-    Class_nam7: str = ""
-    Class_len7: int = 0
-    Class_nam8: str = ""
-    Class_len8: int = 0
+    Class_nam1: str 
+    Class_len1: int
+    Class_nam2: str 
+    Class_len2: int 
+    Class_nam3: str 
+    Class_len3: int 
+    Class_nam4: str 
+    Class_len4: int 
+    Class_nam5: str 
+    Class_len5: int 
+    Class_nam6: str 
+    Class_len6: int 
+    Class_nam7: str 
+    Class_len7: int 
+    Class_nam8: str 
+    Class_len8: int 
 
 @dataclass
 class Sleep_info:
-    Sleep_night: int = 0
-    Sleep_day: int = 0
+    Sleep_night: int 
+    Sleep_day: int 
 
 @dataclass
 class Transit_info:
-    Transport_len: int = 0
+    Transport_len: int 
     
 @dataclass
 class Cleaning_info:
-    Showering_time: int =0
-    Brushing_time: int =0
-    Dressing_time: int = 0
+    Showering_time: int
+    Brushing_time: int 
+    Dressing_time: int 
     
 @dataclass
 class Additional_info:
-    Task_nam1: str = ''
-    Task_len1: int = 0
-    Task_nam2: str = ''
-    Task_len2: int = 0
-    Task_nam3: str = ''
-    Task_len3: int = 0
-    Task_nam4: str = ''
-    Task_len4: int = 0
-    Task_nam5: str = ''
-    Task_len5: int = 0
-    Task_nam6: str = ''
-    Task_len6: int = 0
-    Task_nam7: str = ''
-    Task_len7: int = 0
-    Task_nam8: str = ''
-    Task_len8: int = 0
+    Task_nam1: str 
+    Task_len1: int 
+    Task_nam2: str 
+    Task_len2: int 
+    Task_nam3: str 
+    Task_len3: int 
+    Task_nam4: str 
+    Task_len4: int 
+    Task_nam5: str 
+    Task_len5: int 
+    Task_nam6: str 
+    Task_len6: int 
+    Task_nam7: str 
+    Task_len7: int 
+    Task_nam8: str 
+    Task_len8: int 
     
 @dataclass
 class State:
