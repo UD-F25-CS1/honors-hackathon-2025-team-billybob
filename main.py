@@ -9,7 +9,7 @@ set_website_title("Free Time Calculator")
 set_site_information(
     author = "TabithaZ@udel.edu and nkapadia@udel.edu",
     description ="""A website that allows students to calculate the amount of free time that they have in a day.""",
-    sources = ["https://coda.io/@hales/simple-online-calculator-for-dates-and-times/how-many-minutes-in-a-day-39", "https://chatgpt.com/"]
+    sources = ["https://coda.io/@hales/simple-online-calculator-for-dates-and-times/how-many-minutes-in-a-day-39", "https://chatgpt.com/"],
     links = ["https://ud-f25-cs1.github.io/honors-hackathon-2025-team-billybob/"]
 )
 hide_debug_information()
