@@ -7,6 +7,7 @@ from dataclasses import dataclass
 set_website_framed(False)
 set_website_title("Free Time Calculator")
 #"TabithaZ@udel.edu and nkapadia@udel.edu",
+set_site_information()
    
 hide_debug_information()
 set_website_style("none")
