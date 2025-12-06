@@ -7,7 +7,15 @@ from dataclasses import dataclass
 set_website_framed(False)
 set_website_title("Free Time Calculator")
 #"TabithaZ@udel.edu and nkapadia@udel.edu",
-set_site_information()
+set_site_information(
+    "Tabitha Zimmerman and Neel Kapadia",
+    """
+A website that allows students to calculate the amount of free time that they have in a day.
+""",
+    [],
+    [],
+    [],
+)
    
 hide_debug_information()
 set_website_style("none")
